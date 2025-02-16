@@ -1,0 +1,8 @@
+{
+  "label": "Lógica de programação",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Trilha de lógica de programação com linguagem Kotlin"
+  }
+}

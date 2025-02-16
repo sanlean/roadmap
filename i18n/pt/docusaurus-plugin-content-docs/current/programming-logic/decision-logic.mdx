@@ -1,0 +1,141 @@
+---
+sidebar_position: 4
+---
+
+# Lógica de Decisão
+
+A lógica de decisão em programação permite que seu código "escolha" entre diferentes caminhos com base em condições. Existem três estruturas básicas de decisão: `if`, `else if` e `else`. Estas estruturas ajudam o computador a tomar decisões com base em expressões booleanas (verdadeiras ou falsas).
+
+## 1. A Estrutura `if`
+
+A estrutura `if` é usada para executar um bloco de código apenas se uma condição for **verdadeira**. Se a condição for **falsa**, o código dentro do `if` será ignorado.
+
+#### Exemplo: Verificando se um número é positivo
+Suponha que você queira verificar se um número é positivo. A lógica seria:
+
+```kotlin
+val numero = 5
+if (numero > 0) {
+    println("O número é positivo")
+}
+```
+
+Neste exemplo, como `numero` é maior que 0, a condição `numero > 0` será verdadeira, então o programa imprimirá "O número é positivo".
+
+## 2. A Estrutura `else`
+
+O `else` complementa o `if` e permite que você forneça uma alternativa caso a condição do `if` seja **falsa**.
+
+#### Exemplo: Verificando se um número é positivo ou negativo
+Agora, vamos verificar se um número é positivo ou negativo:
+
+```kotlin
+val numero = -3
+if (numero > 0) {
+    println("O número é positivo")
+} else {
+    println("O número é negativo")
+}
+```
+
+Neste caso, como `numero` é menor que 0, a condição `numero > 0` será falsa, então o código dentro do `else` será executado, e o programa imprimirá "O número é negativo".
+
+## 3. A Estrutura `else if`
+
+Às vezes, você precisa verificar várias condições diferentes. Em vez de usar múltiplos `if` e `else`, você pode usar o `else if` para adicionar condições adicionais entre o `if` e o `else`.
+
+#### Exemplo: Verificando se um número é positivo, negativo ou zero
+Vamos expandir o exemplo para verificar se o número é positivo, negativo ou zero:
+
+```kotlin
+val numero = 0
+if (numero > 0) {
+    println("O número é positivo")
+} else if (numero < 0) {
+    println("O número é negativo")
+} else {
+    println("O número é zero")
+}
+```
+
+Neste caso, a primeira condição `numero > 0` é falsa, então o programa verifica a segunda condição `numero < 0`. Como ela também é falsa, o código no `else` será executado, e o programa imprimirá "O número é zero".
+
+## 4. Operadores de Comparação
+
+Os operadores de comparação são usados dentro das estruturas de decisão para comparar dois valores. Aqui estão os operadores mais comuns:
+
+- `==` (igual a)
+- `!=` (diferente de)
+- `>` (maior que)
+- `<` (menor que)
+- `>=` (maior ou igual a)
+- `<=` (menor ou igual a)
+
+#### Exemplo: Comparando dois números
+
+```kotlin
+val numero1 = 5
+val numero2 = 10
+if (numero1 == numero2) {
+    println("Os números são iguais")
+} else {
+    println("Os números são diferentes")
+}
+```
+
+Neste exemplo, como `numero1` não é igual a `numero2`, o programa imprimirá "Os números são diferentes".
+
+## 5. Operadores Lógicos
+
+Os operadores lógicos permitem combinar várias condições em uma única expressão. Os operadores lógicos mais comuns são:
+
+- `&&` (E lógico)
+- `||` (OU lógico)
+- `!` (NEGADO)
+
+#### Exemplo: Usando o operador `&&` (E lógico)
+
+```kotlin
+val numero1 = 10
+val numero2 = 20
+if (numero1 > 0 && numero2 > 0) {
+    println("Ambos os números são positivos")
+} else {
+    println("Pelo menos um dos números não é positivo")
+}
+```
+
+Neste exemplo, a condição `numero1 > 0 && numero2 > 0` verifica se ambos os números são positivos. Como ambos são positivos, o programa imprimirá "Ambos os números são positivos".
+
+#### Exemplo: Usando o operador `||` (OU lógico)
+
+```kotlin
+val numero1 = -10
+val numero2 = 20
+if (numero1 > 0 || numero2 > 0) {
+    println("Pelo menos um número é positivo")
+} else {
+    println("Nenhum número é positivo")
+}
+```
+
+Aqui, a condição `numero1 > 0 || numero2 > 0` verifica se pelo menos um dos números é positivo. Como `numero2` é positivo, o programa imprimirá "Pelo menos um número é positivo".
+
+#### Exemplo: Usando o operador `!` (NEGADO)
+
+```kotlin
+val numero1 = 5
+if (!(numero1 > 10)) {
+    println("O número não é maior que 10")
+}
+```
+
+Neste caso, o operador `!` nega a condição. Como `numero1` não é maior que 10, a condição é verdadeira (pois a negação de "numero1 > 10" torna a afirmação verdadeira), e o programa imprimirá "O número não é maior que 10".
+
+---
+
+## Resumo
+
+Em resumo, a **lógica de decisão** é fundamental para qualquer programa, pois ela permite que você execute diferentes blocos de código com base em condições. As estruturas de decisão mais comuns são `if`, `else` e `else if`. Essas estruturas podem ser combinadas com **operadores de comparação** (como `==`, `!=`, `>`, `<`, etc.) e **operadores lógicos** (como `&&`, `||`, e `!`) para criar decisões complexas e controlar o fluxo de execução do programa de maneira eficaz.
+
+O uso de **if**, **else** e **else if** ajuda a tomar decisões simples, enquanto os **operadores lógicos** permitem criar condições mais complexas. Esses conceitos formam a base para muitas operações de controle de fluxo em programas e são fundamentais para qualquer desenvolvedor aprender e dominar.
