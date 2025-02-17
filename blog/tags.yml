@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+kotlin:
+  label: Kotlin
+  permalink: /kotlin
+  description: Kotlin development
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+android:
+  label: Android
+  permalink: /android
+  description: Android development
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+backend:
+  label: Backend
+  permalink: /backend
+  description: Backend development
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+kmp:
+  label: Kotlin Multiplatform
+  permalink: /kmp
+  description: Kotlin Multiplatform development

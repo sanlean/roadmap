@@ -1,12 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+leo:
+  name: Leandro Santana
+  title: Mobile Engineer Lead @ Zup
+  url: https://github.com/sanlean
+  image_url: https://github.com/sanlean.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    linkedin: leo-santana
+    github: sanlean
 
 slorber:
   name: Sébastien Lorber
