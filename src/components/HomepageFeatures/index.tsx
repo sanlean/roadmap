@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Comece do zero',
-    image: '/img/roadmap-session-1.webp',
+    image: 'https://raw.githubusercontent.com/sanlean/roadmap/refs/heads/main/static/img/roadmap-session-1.webp',
     description: (
       <>
         Aprendizado de programação começando do nível mais iniciante para quem não
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Roadmap completo',
-    image: '/img/roadmap-session-2.webp',
+    image: 'https://raw.githubusercontent.com/sanlean/roadmap/refs/heads/main/static/img/roadmap-session-2.webp',
     description: (
       <>
         Saiba o que é necessário estudar para ser um desenvolvedor completo que
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Livre para usar',
-    image: '/img/roadmap-session-1.webp',
+    image: 'https://raw.githubusercontent.com/sanlean/roadmap/refs/heads/main/static/img/roadmap-session-3.webp',
     description: (
       <>
         Conteúdo totalmente gratuito e <i>open source</i>, com liberdade total
