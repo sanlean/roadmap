@@ -30,11 +30,11 @@ Antes de começar a programar, é uma boa prática organizar seu código em past
 
 ## 2. Criando um Arquivo Kotlin
 
-Agora que você tem a pasta configurada e o VSCode aberto, vamos criar seu primeiro arquivo Kotlin.
+Agora que você tem a pasta configurada e o VSCode aberto, vamos criar seu primeiro arquivo Kotlin. Para cada exercício ou código que você vá criar, crie uma nova pasta para cada. Por exemplo crie uma pasta `Hello` dentro de `ExerciciosKotlin` e depois crie quantas pastas forem necessárias dentro de `ExerciciosKotlin`.
 
 1. No VSCode, clique com o botão direito na barra lateral esquerda, dentro da pasta que você criou, e selecione `New File`.
 
-2. **Crie um novo arquivo** com o nome `HelloWorld.kt`. A extensão `.kt` é importante, pois ela indica que o arquivo é um código Kotlin.
+2. **Crie um novo arquivo** com o nome `Main.kt`. A extensão `.kt` é importante, pois ela indica que o arquivo é um código Kotlin. O nome `Main` é fundamental para o compilador entender que precisa executar este arquivo.
 
    _Espaço para imagem mostrando como criar um novo arquivo no VSCode._
 
@@ -58,13 +58,13 @@ Em Kotlin, o código começa dentro de uma função chamada `main`. Essa é a fu
 3. Para rodar o programa, você pode usar o terminal do VSCode, indo até a opção de terminal e digitando:
 
    ```bash
-   kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar
-   java -jar HelloWorld.jar
+   kotlinc Main.kt -include-runtime -d main.jar
+   java -jar main.jar
    ```
 
    Isso irá compilar e executar o código. Se tudo estiver correto, você verá a mensagem "Olá, mundo!" sendo exibida no console. Porém vamos fazer de uma forma mais fácil 😉.
 
-   No VSCode clique no botão play e o seu código irá compilar e executar sem precisar de nenhum comando extra  no terminal.
+   No VSCode clique no botão `play` e o seu código irá compilar e executar sem precisar de nenhum comando extra  no terminal.
 
    _Espaço para imagem do processo de execução no terminal do VSCode._
 
