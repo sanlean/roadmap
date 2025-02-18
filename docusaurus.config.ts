@@ -44,7 +44,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          remarkPlugins: [require('remark-math')], // Para matemática em Markdown
+          remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -72,6 +72,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-odtC8XT2yx7MeW+M5ExFm6qHfzW/QESbK4GS+j/H0cznKZjH49Mw15QyVfTOQcs0',
+      crossorigin: 'anonymous',
+    },
+  ],  
 
   themeConfig: {
     // Replace with your project's social card
