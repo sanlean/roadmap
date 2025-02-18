@@ -35,7 +35,7 @@ Em Kotlin, os tipos numéricos são divididos em inteiros e de ponto flutuante:
 
 ### Comparação com Conjuntos Numéricos da Matemática
 
-Os tipos inteiros correspondem ao conjunto \( \mathbb{Z} \) (números inteiros), enquanto os tipos de ponto flutuante correspondem ao conjunto \( \mathbb{R} \) (números reais, representados de forma aproximada).
+Os tipos inteiros correspondem ao conjunto dos números inteiros, enquanto os tipos de ponto flutuante correspondem ao conjunto dos números reais (representados de forma aproximada).
 
 ## Diferenças e Exemplos
 
