@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Lista 1
+# Exercícios - Lógica
 
 1. Fazer um algoritmo para calcular a soma entre dois números. 
 
